@@ -1,9 +1,3 @@
-/* shared css */
-/* body{
-    display: flex;
-    justify-content: center;
-} */
-
 /* header section css */
 
 .header{
@@ -143,6 +137,7 @@
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
+    font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
     margin-left: 158px;
@@ -321,12 +316,13 @@
 /* Holiday section css */
 
 .holiday{
-    width:1320px;
+
     display: flex;
     justify-content: center;
 }
 
 .holiday .holiday-sec{
+    width:1320px;
     text-align: center;
     margin-left: 100px;
     margin-top: 120px;
@@ -427,4 +423,252 @@
 .dis-center{
     display: flex;
     justify-content: center;
+}
+
+/* portfolio section css */
+
+.portfolio{
+
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+    margin-bottom: 120px;
+}
+
+.portfolio .port-sec{
+    width: 1320px;
+}
+
+.portfolio .port-sec h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio .port-sec h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio .port-sec p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.portfolio .port-sec .grid-container{
+    width: 1320px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 48px;
+    margin-bottom: 150px;
+    gap: 10px;
+}
+
+
+
+.portfolio .port-sec .grid-container .grid-items{
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    padding: 5px;
+}
+
+.portfolio .port-sec .grid-container .grid-items:hover{
+    box-shadow: 5px 5px 5px  #28231d;
+}
+
+/* newsletter section css */
+.newsletter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: -120px;
+    align-items: center;
+}
+
+.newsletter .news-sec{
+    width: 1320px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: block;
+    align-items: center;
+}
+
+.newsletter .news-sec h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+
+.newsletter .news-sec p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.newsletter .news-sec #email{
+    width: 438px;
+    height: 68px;
+    border-radius: 50px 0px 0px 50px;
+    border: 0;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    padding-left: 30px;
+
+
+}
+
+.newsletter .news-sec #submit{
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: 0;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    margin-left: -4px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+/* footer section css */
+
+.footer{
+    background: #070211;;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.footer .foot-sec{
+    width: 1320px;
+
+}
+
+.footer .foot-sec .upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .foot-sec .upper .left h5{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    margin-top: -0.5px;
+}
+
+.footer .foot-sec .upper .right .phone{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer .foot-sec .upper .right .phone img{
+    width: 24px;
+    height: 24px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.footer .foot-sec .upper .right .web{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+}
+
+
+.footer .foot-sec .upper .right .web img{
+    width: 24px;
+    height: 24px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.footer .foot-sec .upper .right h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+.footer .foot-sec .mid .line-1{
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 50px auto;
+}
+
+.footer .foot-sec .mid .icon{
+    display: flex;
+    justify-content: center;
+}
+
+.footer .foot-sec .mid .icon .image{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    padding: 0 12px;
+}
+
+.footer .foot-sec .mid .line-2{
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 50px auto;
+}
+
+.footer .foot-sec .lower{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.footer .foot-sec .lower h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
